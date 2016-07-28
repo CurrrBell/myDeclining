@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+use_frameworks!
+
+pod 'Firebase'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'GoogleMaps'
+pod 'ENSwiftSideMenu'
+pod 'PubNub'
+pod 'JSQMessagesViewController'
+
