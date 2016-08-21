@@ -103,7 +103,8 @@ class ChatViewController: JSQMessagesViewController {
 		setupBubbles()
 		collectionView!.collectionViewLayout.incomingAvatarViewSize = CGSizeZero
 		collectionView!.collectionViewLayout.outgoingAvatarViewSize	= CGSizeZero
-		messageRef = rootRef.child("messages")
+		let currentUser = FIRAuth.auth()?.currentUser
+		messageRef = rootRef.child("messages\(currentUser!.uid)")
 	}
 	
 }

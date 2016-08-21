@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83009C341D69335F00821E64 /* SellerDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83009C331D69335F00821E64 /* SellerDashboardViewController.swift */; };
 		8305CA1B1C72C54100E6616C /* Icon Final.png in Resources */ = {isa = PBXBuildFile; fileRef = 8305CA1A1C72C54100E6616C /* Icon Final.png */; };
 		8318F37F1C61927000B7330C /* MyNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318F37E1C61927000B7330C /* MyNavigationViewController.swift */; };
 		8318F3821C61932200B7330C /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318F3801C61932200B7330C /* ENSideMenu.swift */; };
 		8318F3831C61932200B7330C /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318F3811C61932200B7330C /* ENSideMenuNavigationController.swift */; };
 		8318F3851C61947E00B7330C /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318F3841C61947E00B7330C /* MenuTableViewController.swift */; };
 		8318F38F1C619F0400B7330C /* 3bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 8318F38E1C619F0400B7330C /* 3bar.png */; };
+		831956FD1D6A31BE00EE50CE /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831956FC1D6A31BE00EE50CE /* MessagesViewController.swift */; };
 		831B0C631C67C3940022B9C4 /* noProfilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 831B0C621C67C3940022B9C4 /* noProfilePic.png */; };
 		834851961C725A3600D80934 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834851951C725A3600D80934 /* ProfileCell.swift */; };
 		834F0FDA1D3C227500B5D33C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F0FD91D3C227500B5D33C /* ChatViewController.swift */; };
@@ -54,12 +56,14 @@
 /* Begin PBXFileReference section */
 		2BC360D0A0F9A401D3254DDC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		42C21066D86D341FB1DC615D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		83009C331D69335F00821E64 /* SellerDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellerDashboardViewController.swift; sourceTree = "<group>"; };
 		8305CA1A1C72C54100E6616C /* Icon Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon Final.png"; sourceTree = "<group>"; };
 		8318F37E1C61927000B7330C /* MyNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationViewController.swift; sourceTree = "<group>"; };
 		8318F3801C61932200B7330C /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
 		8318F3811C61932200B7330C /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		8318F3841C61947E00B7330C /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		8318F38E1C619F0400B7330C /* 3bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3bar.png; sourceTree = "<group>"; };
+		831956FC1D6A31BE00EE50CE /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		831B0C621C67C3940022B9C4 /* noProfilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noProfilePic.png; sourceTree = "<group>"; };
 		834851951C725A3600D80934 /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		834F0FD91D3C227500B5D33C /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -117,7 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				8318F3801C61932200B7330C /* ENSideMenu.swift */,
+				831956FC1D6A31BE00EE50CE /* MessagesViewController.swift */,
 				8318F3811C61932200B7330C /* ENSideMenuNavigationController.swift */,
+				83009C331D69335F00821E64 /* SellerDashboardViewController.swift */,
 				8352AA091C4499AF006B919C /* Main.storyboard */,
 				834851951C725A3600D80934 /* ProfileCell.swift */,
 				8350CEFA1C6D665A005503B2 /* RequestClaimedViewController.swift */,
@@ -274,7 +280,9 @@
 				8352AA061C4499AF006B919C /* AppDelegate.swift in Sources */,
 				8318F3821C61932200B7330C /* ENSideMenu.swift in Sources */,
 				835A37F31C5060AB001EB7DC /* ChooseLocationViewController.swift in Sources */,
+				83009C341D69335F00821E64 /* SellerDashboardViewController.swift in Sources */,
 				835A37FD1C552C0A001EB7DC /* SignInViewController.swift in Sources */,
+				831956FD1D6A31BE00EE50CE /* MessagesViewController.swift in Sources */,
 				835A37F71C5071A4001EB7DC /* SellerListViewController.swift in Sources */,
 				8318F37F1C61927000B7330C /* MyNavigationViewController.swift in Sources */,
 				834851961C725A3600D80934 /* ProfileCell.swift in Sources */,

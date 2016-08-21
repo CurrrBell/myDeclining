@@ -55,7 +55,8 @@ class SignInViewController: UIViewController {
 				
 				let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Nav")
 				self.presentViewController(viewController, animated: true, completion: nil)
-				
+//				let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Test")
+//				self.presentViewController(viewController, animated: true, completion: nil)
 				
 			}
 			
